@@ -1,78 +1,205 @@
-.parent {
+/* .parent {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
     background-image: url(../pic/4473133296ab859781bef7d0f6f8e83c.png);
-    height: 600px
+    height: 600px;
+   
+} */
+/* 
+.parentheader {
+    display: flex;
+    height: 50%;
+    justify-content: center;
 }
 
+.svg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: aliceblue;
+
+} */
+  /* 
+.project {
+    margin: 20px;
+    text-align: left;
+font-size: 20px;
+font-weight: 600;
+ letter-spacing: 0.1em;  }
+ /* */ 
+
+/* 
 .child {
     margin: 20px;
-
+    text-align: left;
+font-size: 20px;
+font-weight: 600;
+letter-spacing: 0.1em;
+color: #ad4848;
+}
+.child a {
+    text-decoration: none;
+    color: white;
 }
 
-
-a {
-    margin: 20px;
-}
 
 
 .logo {
-    width: 70px;
-    height: 40px;
-
-
+    height: 62.99581527709961px;
+    width: 62.995819091796875px;
+    color:  #55C2D8;
+  
 }
 
-h1,
-h3 {
+.logotransform{
+    height: 62px;
+    width: 62px;
+ 
+   
+}
+
+.logotransform :hover {
+    transform: scale(1.5) rotateY(180deg);  
+    
+     transition:  3s; 
+}
+ */
+
+
+.app-section__button—read-more  :hover {
+ /* transform: translate(10px); */
+ /* transform: rotate(15deg);  */
+/* transform: skewY(20deg); */
+transform: translateZ(200px) rotateZ(20deg) ;
+ transition: 2s;
+}
+
+
+.section {
+    height: 119px;
+    width: 669px;  
+font-size: 48px;
+font-weight: 700;
+line-height: 64px;
+letter-spacing: 0em;
+text-align: center;
+}
+
+.sectiontwo {
+    height: 57px;
+    width: 426px;
+font-size: 24px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: center;
+margin-left: 90px;
+}
+ 
+oktext
+.text {
+    color: white;
+}
+
+
+
+.app-section__button {
+     height: 194px;
+    width: 983px; 
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
     text-align: center;
-}
-
-.head {
-    display: flex;
-    flex-wrap: nowrap;
+    
 
 }
-
-.one {
-    width: 400px;
-    height: 160px;
-    background-color: rgb(226, 218, 223);
-    margin: 40px;
-    padding: 30px;
-
-}
-
+ok button
 .button {
-    align-self: flex-end;
-    align-items: flex-end;
+    height: 36px;
+    width: 115px;
+    border-radius: 18px;
+    background: #55C2D8;
+    border: hidden;
 
 }
 
-h2,
-h4,
-p {
-    text-align: center;
+.app-section  {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-
+/* 
 #picture {
     background-image: url(../pic/5b9c03187b223207051a387fe5442187.jpg);
-    height: 800px;
+    height: 666px;
+width: 1200px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
 }
 
 .culture {
-    text-align: center;
+    height: 117px;
+width: 580px;
+font-size: 44px;
+font-weight: 700;
+line-height: 64px;
+letter-spacing: 0em;
+    color: white;
 
 }
 
-.logo2 {
-    width: 30px;
-    height: 15px;
+.some3 {
+    height: 102px;
+    width: 390px;
+font-size: 24px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0em;
+color: white;
+}
+
+
+.buttontwo {
+    background-color: #39C2D7;
+    height: 150px;
+width: 150px;
+left: 525px;
+top: 1754px;
+border-radius: 100px;
+}
+
+.player {
+    color: white;
+    font-size: 30px;
+} */
+
+/* 
+.buttontwotransform :hover {
+    background-color: white;
+    transform: scale(1.05);
+    transition: 2s;
+ 
+}
+
+.playertransform :hover {
+color: #39C2D7;
+
 }
 
 #newid {
     background-color: rgb(70, 67, 67);
+    width: 90%;
     height: 200px;
     display: flex;
     flex-flow: row nowrap;
@@ -82,3 +209,31 @@ p {
     margin: 70px auto;
 
 }
+.logo2 {
+    width: 30px;
+    height: 15px;
+}
+
+#newAnimation :hover {
+ color: azure;
+
+animation: newAnimation 4s infinite alternate;
+animation-name: newAnimation;
+animation-duration: 10s;
+animation-timing-function: ease-in-out;
+}
+
+
+@keyframes newAnimation {
+    from { color: rgb(255, 255, 255);
+       animation-name: newAnimation;
+       animation-duration: 10s;
+       animation-timing-function: ease-in-out;
+
+    }
+
+    to{
+         transform: translateZ(30deg);
+        /* transition: 4s;  */
+     
+
